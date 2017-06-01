@@ -3,7 +3,7 @@ package climbingStairs;
 public class Solution {
 	public int climbStairs(int n) {
 		int result = 0;
-
+ 
         if (n == 1) result = 1;
         else if (n == 2) result = 2;
         else if (n > 2) {
