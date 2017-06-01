@@ -1,7 +1,6 @@
 package simplifyPath;
 
 import java.util.LinkedList;
-import java.util.Stack;
 
 public class Solution {
 	private static final String delimiter = "/";
