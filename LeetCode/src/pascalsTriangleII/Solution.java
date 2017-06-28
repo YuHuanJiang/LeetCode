@@ -7,7 +7,7 @@ public class Solution {
 	public List<Integer> getRow(int rowIndex) {
         List<Integer> result = new ArrayList<>();
         
-        if(rowIndex <= 0) return result;
+        if(rowIndex < 0) return result;
         
         result.add(1);
         for(int i = 1; i <= rowIndex; i++) {
